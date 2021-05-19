@@ -1,0 +1,7 @@
+.venv
+.vscode
+*.py[cod]
+
+# Ignore the default SQLite database.
+*.sqlite3
+__pycache__
