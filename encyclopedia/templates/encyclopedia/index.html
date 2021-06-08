@@ -10,7 +10,7 @@
     <ul>
         {% for entry in entries %}
             {# can use hard-coded url as well but not a good practice e.g. '/wiki/{{entry}}'#}
-            <li><a href="{% url 'encyclopedia:display_entry_page' entry%}">{{ entry }}</a></li>
+            <li><a href="{% url 'encyclopedia:display_entry_page' entry %}">{{ entry }}</a></li>
         {% endfor %}
     </ul>
 
